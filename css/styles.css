@@ -3,3 +3,48 @@
 body {
 	background: url("../img/bg.jpg")
 }
+
+/*layout*/
+
+.container {
+	background-color: purple; 
+	width: 95%;
+	margin: 0 auto;
+}
+
+article section {
+
+	width: 50%;
+	float: left;
+}
+
+iframe, img{
+	width: 100%;
+	max-width: 100%;
+}
+
+/*desktop 960px*/
+@media (min-width: 960px)  {
+
+#top {
+	width: 300px;
+}
+}
+
+/*tablet 768*/
+@media (min-width: 768px)  {
+section img {
+	width: 80%;
+
+}
+section h1 {
+	text-transform: uppercase;
+	color:orange;
+}
+}
+}
+
+/*mobile*/
+@media (min-width: 480px)  {
+float: none;
+}
