@@ -7,7 +7,7 @@ body {
 /*layout*/
 
 .container {
-	background-color: purple; 
+	background-color: white; 
 	width: 95%;
 	margin: 0 auto;
 }
@@ -22,6 +22,65 @@ iframe, img{
 	width: 100%;
 	max-width: 100%;
 }
+
+.truck2  {
+	margin-top: 10px;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+	border-right: 5px solid black;
+	border-left: 5px solid black;
+	margin-left: 80px;
+	transform: skewX(15deg);
+}
+
+.truck1  {
+	margin-top: 10px;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+	border-right: 5px solid black;
+	border-left: 5px solid black;
+	margin-left: 20px;
+	margin-right: 40px;
+	transform: skewX(-15deg);
+}
+
+nav li {
+display: inline-block;
+margin: 20px 0 0 50px;
+text-align: right;
+
+
+}
+
+
+h3 {
+display: block;
+font-size: 2em;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+font-weight: bold;
+text-align: center;
+margin-top: -50px auto;
+}
+
+p 
+	{
+display: block;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+
+}
+ 
+
+
+
+
+
+
 
 /*desktop 960px*/
 @media (min-width: 960px)  {
@@ -39,7 +98,8 @@ section img {
 }
 section h1 {
 	text-transform: uppercase;
-	color:orange;
+	color:black;
+	font-size: 2em;
 }
 }
 }
@@ -47,4 +107,20 @@ section h1 {
 /*mobile*/
 @media (min-width: 480px)  {
 float: none;
+
 }
+/*REFERENCES*/
+
+/** [Transitions & Transforms](https://teamtreehouse.com/library/css-beyond-the-basics/understanding-css-transitions-and-transforms/)*/
+
+/* * [Media Queries](https://teamtreehouse.com/library/css-beyond-the-basics/working-with-media-queries/)*/
+
+
+
+
+
+
+
+
+
+
