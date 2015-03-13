@@ -52,6 +52,14 @@ text-align: right;
 
 }
 
+nav li:visited {
+ 	color: teal;
+ }
+nav li:hover {
+	
+	background-color: lightblue;
+}
+
 
 h3 {
 display: block;
